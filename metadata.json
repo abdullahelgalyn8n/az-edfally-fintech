@@ -1,0 +1,6 @@
+{
+  "name": "ادفعلي للمدفوعات الإلكترونية | Edfally",
+  "description": "شركة ادفعلي للمدفوعات الإلكترونية والرقمية - حلول متكاملة للدفع الإلكتروني، ماكينات نقاط البيع POS، وتطبيقات التجار والتحول الرقمي في مصر.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
