@@ -83,30 +83,7 @@ export const PageHeader: React.FC<{
             </p>
           </div>
 
-          {/* Dedicated Page Route Bar */}
-          <div className="flex items-center gap-2 bg-slate-950/45 border border-white/20 rounded-xl px-3.5 py-2.5 self-start md:self-end">
-            <Link2 className="w-4 h-4 text-sky-300 shrink-0" />
-            <span
-              dir="ltr"
-              className="text-xs font-mono-nums text-sky-100 select-all truncate max-w-[220px] sm:max-w-[280px]"
-            >
-              {fullPathDisplay}
-            </span>
-            <button
-              type="button"
-              onClick={handleCopyUrl}
-              className="mr-2 px-2.5 py-1 rounded-lg bg-white text-slate-900 hover:bg-sky-50 text-xs font-bold transition-colors inline-flex items-center gap-1 whitespace-nowrap shrink-0 cursor-pointer"
-            >
-              {copied ? (
-                <>
-                  <Check className="w-3.5 h-3.5 text-emerald-700" />
-                  <span>تم النسخ</span>
-                </>
-              ) : (
-                <span>نسخ الرابط</span>
-              )}
-            </button>
-          </div>
+          
         </div>
       </div>
 
